@@ -170,6 +170,10 @@ header.masthead {
   padding-bottom: 6rem;
 }
 
+header.masthead img {
+  border-radius: 50%;
+}
+
 header.masthead h1 {
   font-size: 3rem;
   line-height: 3rem;
@@ -265,8 +269,24 @@ header.masthead h2 {
     font-size: 3rem;
   }
 }
-#scholarship {
+.accordion .card-header {
+  background-color: #2C3E50;
+}
 
+.accordion .card-header button {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.card-header .btn:hover, .btn:focus, .btn:active {
+  color: #18BC9C;
+}
+
+.card-body {
+  text-align: left;
 }
 
 #about {
@@ -274,10 +294,22 @@ header.masthead h2 {
   color: #1a252f;
 }
 
+#about img {
+  border-radius: 50%;
+}
+
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #2C3E50;
+  color: #fff;
+}
+
+.footer h2 {
+  font-size: 3rem;
+}
+
+.footer a {
   color: #fff;
 }
 
